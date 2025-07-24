@@ -1,7 +1,7 @@
 Meta.DisplayName=Raft
 Meta.Description=Raft Dedicated Server
 Meta.OS=Windows,Linux
-Meta.AarchSupport=NotSupported
+Meta.AarchSupport=Unknown
 Meta.Arch=x86_64
 Meta.Author=Greelan
 Meta.URL=https://rdswiki.raftmodding.com/
