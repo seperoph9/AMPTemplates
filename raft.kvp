@@ -1,6 +1,6 @@
 Meta.DisplayName=Raft
 Meta.Description=Raft Dedicated Server
-Meta.OS=
+Meta.OS=Windows,Linux
 Meta.AarchSupport=NotSupported
 Meta.Arch=x86_64
 Meta.Author=Greelan
@@ -22,9 +22,10 @@ Meta.ExtraContainerPackages=[]
 Meta.ConfigReleaseState=NotSpecified
 Meta.NoCommercialUsage=False
 Meta.AppConfigId=78a2e546-80c4-4bcd-9aec-4e2a0bc33b62
-Meta.ConfigVersion=0.0.0.0
+Meta.ConfigVersion=1.0.0.0
 Meta.ReleaseNotes=
 Meta.BreakingReleaseNotes=
+
 App.DisplayName=Raft
 App.RootDir=./raft/
 App.BaseDirectory=./raft/server/
@@ -79,6 +80,7 @@ App.MonitorChildProcessName=^{{$FullBaseDir}}RaftDedicatedServer\.exe.*$
 App.SupportsUniversalSleep=False
 App.WakeupMode=Any
 App.ApplicationReadyMode=Immediate
+
 Console.FilterMatchRegex=
 Console.FilterMatchReplacement=
 Console.ThrowawayMessageRegex=
@@ -91,6 +93,7 @@ Console.MetricsRegex=
 Console.SuppressLogAtStart=False
 Console.ActivateLogRegex=
 Console.UserActions={}
+
 Limits.SleepMode=True
 Limits.SleepOnStart=False
 Limits.SleepDelayMinutes=5
